@@ -1,0 +1,59 @@
+header{
+    background-image: url(../Img/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.linksBar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -100% ;
+    z-index: 999;
+}
+.fa-xmark{
+    cursor: pointer;
+}
+.linksBar ul li a:hover , .linksBar i:hover {
+    color: #ab282d  !important;
+    transition: all .3s;
+    
+}
+#Duration{
+    background-image: url(../Img/invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+.DateBorder{
+    width: 150px;
+    height: 150px;
+    border: solid white 2px;
+}
+.iconcont{
+    height: 35px;
+    width: 35px;
+    line-height: 1.55;
+    text-align: center;
+    transition: .7s all;
+    border: #1e1a1a solid 1px;
+
+}
+.iconcont:hover {
+    color: white;
+    background-color: #ab282d;
+    border: #ab282d solid 1px;
+
+}
+.openLink{
+    position: absolute;
+    left: 0;
+    bottom:50%;
+    cursor: pointer;
+}
+.Desc{
+    margin: 0;
+    padding: 20px 50px;
+    display: none;
+}
+.Title{
+    cursor: pointer;
+}
